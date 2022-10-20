@@ -25,9 +25,6 @@
   letter-spacing: 0.03em;
 }
 
-.logo:hover {
-  color: #2196f3;
-}
 .logo-footer {
   font-family: Raleway;
   color: #ffffff;
@@ -36,34 +33,27 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.logo-footer:hover {
-  color: #2196f3;
-}
-.web-logo {
-  color: #2196f3;
-}
-.web-logo-footer {
+.logo-footer:hover,
+.web-logo,
+.web-logo-footer,
+.logo:hover {
   color: #2196f3;
 }
 
 /*шрифты*/
 .site-nav-list,
 .contacts-nav-list {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contact-list {
-  font-family: "Roboto";
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -71,7 +61,6 @@
   text-transform: uppercase;
 }
 .title-main {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -79,7 +68,6 @@
   letter-spacing: 0.03em;
 }
 .title-team {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -87,7 +75,6 @@
   letter-spacing: 0.03em;
 }
 .position {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -95,7 +82,6 @@
 }
 .feature,
 .contact-list {
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -103,14 +89,12 @@
 .link-nav,
 .link-mail,
 .link-tel {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .btn-text {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -118,14 +102,12 @@
   letter-spacing: 0.03em;
 }
 .title-project {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .type {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -140,19 +122,14 @@ a {
 
 /*фокус и выделение в хедер и футер*/
 .site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2196f3;
-}
-
+.site-nav .link:focus,
 .contacts-nav .link:hover,
-.contacts-nav .link:focus {
-  color: #2196f3;
-}
-
+.contacts-nav .link:focus,
 .contact-list .link:hover,
 .contact-list .link:focus {
   color: #2196f3;
 }
+
 .contact-list .link:active,
 .contacts-nav .link:active {
   color: red;
@@ -160,9 +137,7 @@ a {
 .link-contact {
   color: rgba(255, 255, 255, 0.6);
 }
-.link-adress {
-  color: #ffffff;
-}
+
 .link-tel {
   color: #757575;
 }
@@ -172,25 +147,16 @@ a {
 .link-nav {
   color: #212121;
 }
+.position {
+  color: #757575;
+}
 /*hero*/
 .hero {
   background-color: #2f303a;
 }
-.hero-title {
+.hero-title,
+.link-adress {
   color: #ffffff;
-}
-
-/*features*/
-.feature-list .title {
-  color: #212121;
-}
-/*team*/
-.team-list .title {
-  color: #212121;
-}
-/*work*/
-.work-list .title {
-  color: #212121;
 }
 
 /*кнопки*/
@@ -208,7 +174,6 @@ a {
 .main-btn {
   background: #2196f3;
   color: #ffffff;
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.85;
@@ -217,5 +182,3 @@ a {
 .footer {
   background-color: #2f303a;
 }
-
-/*  */
